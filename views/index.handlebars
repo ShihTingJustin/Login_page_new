@@ -1,0 +1,21 @@
+<div class="container h-100">
+  <div class="row h-100 my-auto justify-content-center align-items-center flex-column">
+    <form method="POST" action="/" class='bg-white text-center mt-3 p-4' id='login-card'>
+      <div class="form-group mt-2">
+        <h2 id="brand-logo" class="mb-4">Feed Your Soul</h2>
+        <div class="font-weight-bold">Sign in</div>
+        <input type="text" name="email" class="form-control input-area mt-5" id="inputEmail" aria-describedby="emailHelp"
+          placeholder="Enter email" value={{userEmail}}>
+          {{#if (eq result false)}}
+          <small id="emailHelp" class="form-text" style="color:#dc3543;">Sorry, we don't recognize this account.</small>
+          {{/if}}
+      </div>
+      <button type="submit" class="btn btn-primary w-100 my-3" id="next-btn">Next</button>
+                  
+        <small id="emailHelp" class="form-text text-muted">Forgot username ?</small>
+      
+      <button type="submit" class="btn btn-white w-100 mt-5" id="create-btn">Create an account</button>
+
+    </form>
+  </div>
+</div>
