@@ -14,3 +14,4 @@
 * Express: v4.17.1
 * Express-Handlebars: v4.0.3
 * body-parser: 1.19.0
+* Handlebars-Helpers: 0.10.0
